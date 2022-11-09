@@ -1,5 +1,5 @@
-numpy==1.19.3
-onnxruntime==1.5.2
+numpy
+onnxruntime~=1.13.1
 pillow
 flask
 gunicorn
