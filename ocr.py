@@ -56,7 +56,7 @@ class NNRecognizer(Recognizer):
             img_rec = Image.open(BytesIO(img))
         except:
             raise InvalidImageException()
-        if img_rec.size!=(100,40):
+        if img_rec.size!=(110,40):
             raise IncorrentImageSizeException()
 
         img_rec = img_rec.convert("L")
