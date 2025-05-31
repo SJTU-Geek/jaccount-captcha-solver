@@ -1,4 +1,4 @@
-server:
+services:
   build: .
   image: jaccount-captcha-solver
   ports:
