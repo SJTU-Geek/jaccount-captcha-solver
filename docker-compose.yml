@@ -1,5 +1,6 @@
 services:
-  build: .
-  image: jaccount-captcha-solver
-  ports:
-    - "8010:8080"
+  jaccount-captcha-solver:
+    build: .
+    image: jaccount-captcha-solver
+    ports:
+      - "8010:8080"
