@@ -1,0 +1,5 @@
+server:
+  build: .
+  image: jaccount-captcha-solver
+  ports:
+    - "8010:8080"
